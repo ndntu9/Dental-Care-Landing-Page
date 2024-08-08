@@ -678,3 +678,50 @@ a {
 .list-blog .item:hover .link {
   color: #2e80ce;
 }
+
+#cta-lower {
+  margin-top: 170px;
+  margin-bottom: 170px;
+}
+
+#cta-lower .main {
+  text-align: center;
+  background-color: #f6fbff;
+}
+
+#cta-lower .sub-title {
+  padding-top: 100px;
+  color: #10375c;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  position: relative;
+}
+
+#cta-lower .sub-title::after {
+  content: "";
+  display: inline-block;
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+  position: absolute;
+  left: 50%;
+  bottom: -18px;
+  transform: translateX(-50%);
+}
+
+#cta-lower .desc {
+  margin: 38px auto;
+  width: 617px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+#cta-lower .cta-btn {
+  margin-bottom: 100px;
+  padding-left: 41px;
+  padding-right: 41px;
+}
