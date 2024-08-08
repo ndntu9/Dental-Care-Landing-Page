@@ -377,3 +377,54 @@ a {
   color: #2e80ce;
   font-weight: 400;
 }
+
+#about {
+  padding: 170px 0;
+}
+
+#about .main {
+  display: flex;
+  gap: 130px;
+}
+
+#about .media {
+  display: flex;
+}
+
+#about .thumb {
+  width: 512px;
+  height: 370px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+#about .thumb--lower {
+  margin-left: -274px;
+  width: 332px;
+  height: 370px;
+  margin-top: 121px;
+}
+
+#about .sub-title {
+  margin-top: 82px;
+  color: #10375c;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+}
+
+#about .desc {
+  margin-top: 18px;
+  width: 468px;
+  color: #575f66;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+#about .about-btn {
+  margin-top: 38px;
+  padding-left: 52px;
+  padding-right: 52px;
+}
