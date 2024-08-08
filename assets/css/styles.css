@@ -486,14 +486,16 @@ a {
   line-height: 26px;
 }
 
-#team .control {
+#team .control,
+#blog .control {
   margin-top: 38px;
   display: flex;
   justify-content: center;
   gap: 18px;
 }
 
-#team .control-btn {
+#team .control-btn,
+#blog .control-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -505,18 +507,21 @@ a {
   transition: 300ms;
 }
 
-#team .control-btn svg {
+#team .control-btn svg,
+#blog .control-btn svg {
   stroke: #575f66;
   transition: 300ms;
 }
 
-#team .control-btn:hover {
+#team .control-btn:hover,
+#blog .control-btn:hover {
   cursor: pointer;
   background-color: #2e80ce;
   border-color: #2e80ce;
 }
 
-#team .control-btn:hover svg {
+#team .control-btn:hover svg,
+#blog .control-btn:hover svg {
   stroke: #ffffff;
 }
 
@@ -577,4 +582,99 @@ a {
   position: absolute;
   bottom: 0;
   left: 70px;
+}
+
+#blog .main {
+  display: flex;
+}
+
+#blog .sub-title {
+  width: 470px;
+  margin-top: 68px;
+  margin-bottom: 28px;
+  color: #10375c;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+}
+
+#blog .blog-btn {
+  color: #10375c;
+  font-family: "Inter";
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 28px;
+  position: relative;
+}
+
+#blog .blog-btn::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 1.5px;
+  background-color: #10375c;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: 300ms;
+}
+
+#blog .blog-btn:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+#blog .control {
+  margin-top: 28px;
+  justify-content: flex-start;
+}
+
+.list-blog {
+  display: flex;
+  gap: 30px;
+}
+
+.list-blog .item {
+  flex: 1;
+  border-radius: 12px;
+  border: solid 1px #e8ebee;
+}
+
+.list-blog .info {
+  padding: 18px 22px 21px;
+}
+
+.list-blog .item .thumb {
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.list-blog .title {
+  width: 224px;
+  color: #10375c;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.list-blog .desc {
+  width: 226px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  color: #575f66;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.list-blog .link {
+  color: #10375c;
+  font-size: 1.4rem;
+  font-weight: 400;
+  transition: 300ms;
+}
+
+.list-blog .item:hover .link {
+  color: #2e80ce;
 }
