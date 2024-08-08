@@ -519,3 +519,62 @@ a {
 #team .control-btn:hover svg {
   stroke: #ffffff;
 }
+
+#cta {
+  margin-top: 265px;
+  margin-bottom: 170px;
+}
+
+#cta .main {
+  border-radius: 4px;
+  background-color: #2e80ce;
+  position: relative;
+}
+
+#cta .info {
+  padding-top: 76px;
+  padding-left: 514px;
+  padding-bottom: 75px;
+}
+
+#cta .sub-title {
+  width: 489px;
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+}
+
+#cta .desc {
+  width: 586px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+#cta .action {
+  margin-top: 38px;
+  display: flex;
+  gap: 38px;
+}
+
+#cta .download-btn {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  transform: 300ms;
+}
+
+#cta .download-btn:hover {
+  cursor: pointer;
+}
+
+#cta .thumb {
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+}
